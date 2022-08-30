@@ -1,7 +1,7 @@
 externalproject_add(ext_mapmap
     PREFIX          ext_mapmap
-    GIT_REPOSITORY  https://github.com/OpenDroneMap/mapmap_cpu.git
-    GIT_TAG         250
+    GIT_REPOSITORY  https://github.com/brianolson/mapmap_cpu.git
+    GIT_TAG         20220830
     UPDATE_COMMAND  ""
     SOURCE_DIR      ${CMAKE_SOURCE_DIR}/elibs/mapmap
     CONFIGURE_COMMAND ""
